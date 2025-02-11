@@ -1,4 +1,4 @@
-def caesar_cipher_encrypt(text, shift):
+def caesar_cipher_encrypt(text, shift): 
     encrypted_text = ""
     for char in text:
         if char.isalpha():  # Check if the character is a letter
